@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+@font-face {
+  font-family: poppins;
+  src: url(./assets/fonts/poppins-regular.woff);
+}
+@font-face {
+  font-family: poppinsLight;
+  src: url(./assets/fonts/poppins-light.woff);
+}
+@font-face {
+  font-family: poppinsBold;
+  src: url(./assets/fonts/poppins-bold.woff);
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #f6d9ad;
+  margin: 0;
+  overflow-x: hidden;
+  /* border: none; */
+}
+.font-bold {
+  font-weight: 700;
+}
